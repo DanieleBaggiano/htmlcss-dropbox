@@ -39,3 +39,151 @@ header {
     background-color: red;
     width: 35%;
 }
+
+/* MAIN */
+/* proposta cliente */
+.sfondo {
+    background-color: rgb(180 208 231);
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    /* debug */
+    height: 500px;
+}
+
+.large-container {
+    position: absolute;
+    bottom: 0;
+    
+    /* debug */
+    background-color: orange;
+    width: 70%;
+    height: 400px;
+}
+
+/* piani business */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-container {
+
+    /* debug */
+    width: 60%;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.titolo {
+
+    /* debug */
+    background-color: blueviolet;
+    height: 50px;
+}
+
+.piani {
+    padding: 10px 0;
+}
+
+.piani, .operazioni-dropbox{
+    display: flex;
+    column-gap: 10px;
+} 
+
+.professional, .advanced, .enterprise {
+
+    /* debug */
+    border: 1px solid black;
+    height: 300px;
+    width: calc(100% / 3);
+}
+
+.enterprise-ufficio-vendite {
+
+    /* debug */
+    background-color: blueviolet;
+    height: 100px;
+}
+
+/* partner dropbox */
+.partner-dropbox {
+    display: flex;
+    padding-top: 50px;
+}
+
+.foto {
+
+    /* debug */
+    width: 60%;
+    height: 200px;
+    background-color: blue;
+}
+
+.trova-partner {
+
+    /* debug */
+    width: 40%;
+    height: 200px;
+    background-color: green;
+}
+
+/* operazioni dropbox business */
+.operazioni {
+    margin-top: 50px;
+}
+
+.casella1, .casella2, .casella3,
+.casella4, .casella5, .casella6 {
+
+    /* debug */
+    border: 1px solid black;
+    height: 150px;
+    width: calc(100% / 3);
+    margin-bottom: 10px;
+}
+
+/* info clienti */
+.info-clienti {
+
+    /* debug */
+    width: 60%;
+    height: 100px;
+    background-color: blue;
+    margin-top: 40px;
+}
+
+/* loghi */
+.designit {
+    display: flex;
+
+    /* debug */
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.loghi-sinistra {
+
+    /* debug */
+    width: 33%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.logo-centrale {
+
+    /* debug */
+    width: 33%;
+    height: 300px;
+}
+
+.loghi-destra {
+
+    /* debug */
+    width: 33%;
+    height: 300px;
+    background-color: aqua;
+}
