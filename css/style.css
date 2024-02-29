@@ -1,0 +1,41 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+    /* debug */
+    background-color: green;
+}
+
+.logo {
+
+    /* debug */
+    height: 50px;
+    background-color: red;
+    width: 35%;
+}
+
+.accedi {
+
+    /* debug */
+    height: 50px;
+    background-color: red;
+    width: 35%;
+}
