@@ -42,11 +42,14 @@ header {
 
 /* MAIN */
 /* proposta cliente */
-.sfondo {
+.sfondo, .prova-gratuita {
     background-color: rgb(180 208 231);
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+.sfondo {
 
     /* debug */
     height: 500px;
@@ -186,4 +189,74 @@ header {
     width: 33%;
     height: 300px;
     background-color: aqua;
+}
+
+/* prova gratuita */
+.prova-gratuita {
+
+    /* debug */
+    height: 150px;
+}
+
+.container-prova-gratuita {
+    width: 60%;
+    display: flex;
+    padding-top: 10px;
+}
+
+.porta-azienda {
+    width: 60%;
+
+    /* debug */
+    background-color: blue;
+    height: 130px;
+}
+
+.inizia-prova-gratuita {
+    width: 40%;
+
+    /* debug */
+    background-color: green;
+    height: 130px;
+}
+
+/* domande frequenti */
+.container-domande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    height: 300px;
+}
+
+.domande-frequenti {
+
+    /* debug */
+    background-color: blueviolet;
+    width: 60%;
+    height: 260px;
+}
+
+/* FOOTER */
+/* liste */
+.container-liste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    /* debug */
+    background-color: black;
+    height: 200px;
+}
+
+.lista-dropbox, .lista-prodotti, .lista-azienda,
+.lista-supporto, .lista-community {
+
+    /* debug */
+    height: 180px;
+    width: calc(70% / 5);
+    background-color: whitesmoke;
+    border: 1px solid red;
 }
