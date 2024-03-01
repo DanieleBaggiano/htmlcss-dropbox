@@ -21,6 +21,7 @@ ul {
 a {
     text-decoration: none;
     color: black;
+    font-size: .8rem;
 }
 
 button {
@@ -81,9 +82,21 @@ header {
     bottom: 0;
     
     /* debug */
-    background-color: orange;
-    width: 70%;
+    /* background-color: orange; */
+    /* width: 70%; */
     height: 400px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.paragrafo-immagine {
+    display: flex;
+}
+
+.proposta-cliente {
+    
 }
 
 /* piani business */
