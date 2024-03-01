@@ -5,6 +5,31 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    column-gap: 30px;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: rgb(0 97 255);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,25 +44,21 @@ header {
     display: flex;
     justify-content: space-between;
     height: 50px;
-
-    /* debug */
-    background-color: green;
+    background-color: white;
 }
 
 .logo {
 
     /* debug */
-    height: 50px;
-    background-color: red;
-    width: 35%;
+    /* background-color: red; */
+    /* width: 35%; */
 }
 
 .accedi {
 
     /* debug */
-    height: 50px;
-    background-color: red;
-    width: 35%;
+    /* background-color: red; */
+    /* width: 35%; */
 }
 
 /* MAIN */
