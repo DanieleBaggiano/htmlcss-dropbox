@@ -29,6 +29,7 @@ button {
     padding: 5px 10px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 body {
@@ -92,11 +93,30 @@ h1 {
 }
 
 .paragrafo-immagine {
-    display: flex;
+    position: relative;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.paragrafo {
+    font-size: .8rem;
+    position: absolute;
+    right: 300px;
+}
+
+.bottone-prova-gratuita {
+    margin: 20px 0;
+}
+
+.fa-arrow-down {
+    font-size: 2rem;
+    margin-top: 20px;
 }
 
 .proposta-cliente {
-    
+    margin-left: 100px;
+    position: absolute;
+    left: 100px;
 }
 
 /* piani business */
@@ -110,15 +130,29 @@ h1 {
 
     /* debug */
     width: 60%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 50px;
 }
 
 .titolo {
+    font-size: 1.8rem;
 
     /* debug */
-    background-color: blueviolet;
-    height: 50px;
+    /* background-color: blueviolet; */
+    /* height: 50px; */
+}
+
+.radio-fatturazione {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.fatturazione {
+    font-size: .8rem;
+}
+
+.annuale {
+    margin-left: 20px;
 }
 
 .piani {
@@ -131,9 +165,9 @@ h1 {
 } 
 
 .professional, .advanced, .enterprise {
+    border: 1px solid lightgray;
 
     /* debug */
-    border: 1px solid black;
     height: 300px;
     width: calc(100% / 3);
 }
