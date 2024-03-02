@@ -18,7 +18,7 @@ ul {
     margin: 0 10px;
 }
 
-a {
+.link {
     text-decoration: none;
     color: black;
     font-size: .8rem;
@@ -166,10 +166,78 @@ h1 {
 
 .professional, .advanced, .enterprise {
     border: 1px solid lightgray;
+    font-size: .8rem;
 
     /* debug */
-    height: 300px;
+    height: 700px;
     width: calc(100% / 3);
+}
+
+.singolo, .team, .azienda {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 7px 0;
+}
+
+.fa-user, .fa-users, .fa-building,
+.fa-folder, .fa-share-nodes {
+    padding-right: 3px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.prezzo {
+    padding: 0 20px ;
+    font-size: .9rem;
+    display: block;
+}
+
+.trasparenza {
+    color: rgba(0, 0, 0, .3);
+    padding: 20px;
+}
+
+.ul-piani {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    padding-top: 40px;
+}
+
+li {
+    padding-left: 10px;
+}
+
+.bottone-piani {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.bottone-piani-larghezza {
+    width: 90%;
+    padding: 10px 0;
+}
+
+.acquista-ora {
+    padding-left: 10px;
+}
+
+.cursore-acquista {
+    cursor: pointer;
+}
+
+.oppure {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+
+.punti-salienti {
+    padding-left: 10px;
+    padding-top: 40px;
 }
 
 .enterprise-ufficio-vendite {
