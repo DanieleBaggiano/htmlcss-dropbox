@@ -167,10 +167,10 @@ h1 {
 .professional, .advanced, .enterprise {
     border: 1px solid lightgray;
     font-size: .8rem;
+    width: calc(100% / 3);
 
     /* debug */
-    height: 700px;
-    width: calc(100% / 3);
+    /* height: 700px; */
 }
 
 .singolo, .team, .azienda {
@@ -180,7 +180,7 @@ h1 {
 }
 
 .fa-user, .fa-users, .fa-building,
-.fa-folder, .fa-share-nodes {
+.fa-folder, .fa-share-nodes, .fa-check {
     padding-right: 3px;
 }
 
@@ -200,7 +200,7 @@ h3 {
     padding: 20px;
 }
 
-.ul-piani {
+.ul-piani, .ul-punti-salienti {
     flex-wrap: wrap;
     row-gap: 20px;
     padding-top: 40px;
@@ -232,19 +232,48 @@ li {
 
 .oppure {
     border-bottom: 1px solid lightgray;
-    padding-bottom: 20px;
+    padding-bottom: 27px;
 }
 
 .punti-salienti {
     padding-left: 10px;
-    padding-top: 40px;
+    padding-top: 60px;
+}
+
+.fa-check {
+    color: rgb(0 97 255);
+}
+
+.spazio-bottom {
+    padding-bottom: 30px;
 }
 
 .enterprise-ufficio-vendite {
+    border: 1px solid lightgray;
+    font-size: .8rem;
 
     /* debug */
-    background-color: blueviolet;
-    height: 100px;
+    /* background-color: blueviolet; */
+    /* height: 100px; */
+}
+
+.enterprise-flex {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.soluzioni {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.bottone-enterprise {
+    padding: 20px;
+}
+
+.bottone-enterprise-larghezza {
+    padding: 10px;
+    width: 200px;
 }
 
 /* partner dropbox */
