@@ -147,7 +147,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.fatturazione {
+.fatturazione, .morten {
     font-size: .8rem;
 }
 
@@ -348,34 +348,100 @@ p {
 /* loghi */
 .designit {
     display: flex;
+    margin-top: 100px;
 
     /* debug */
-    height: 300px;
-    border: 1px solid black;
-    margin-top: 30px;
+    /* height: 300px; */
+    /* border: 1px solid black; */
 }
 
 .loghi-sinistra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
 
     /* debug */
-    width: 33%;
-    height: 300px;
-    background-color: aqua;
+    /* height: 300px; */
+    /* background-color: aqua; */
+}
+
+.loghi-alto {
+    display: flex;
+}
+
+.loghi-basso {
+    display: flex;
+}
+
+.designit-logo, .arizona, .florida, .topps,
+.world, .hearst, .lonely, .clear {
+    width: calc(100% / 2);
+    padding: 40px;
+    aspect-ratio: 1;
+}
+
+.designit-colore {
+    background-color: rgb(162 211 155);
+    border: 10px solid rgb(209 233 205);
+}
+
+.arizona-colore {
+    background-color: rgb(97 8 43);
+}
+
+.florida-colore {
+    background-color: rgb(0 147 206);
+}
+
+.topps-colore {
+    background-color: rgb(255 28 28);
 }
 
 .logo-centrale {
+    background-color: rgb(245 245 245);
+    padding: 40px;
 
     /* debug */
     width: 33%;
-    height: 300px;
+    /* height: 300px; */
+}
+
+.designit-centrale {
+    width: 50%;
+}
+
+.trattino {
+    border: 1px solid lightgray;
+    width: 25%;
+    margin-top: 40px;
 }
 
 .loghi-destra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
 
     /* debug */
-    width: 33%;
-    height: 300px;
-    background-color: aqua;
+    /* height: 300px; */
+    /* background-color: aqua; */
+}
+
+.world-colore {
+    background-color: rgb(213 0 31);
+}
+
+.hearst-colore {
+    background-color: rgb(180 208 231);
+}
+
+.lonely-colore {
+    background-color: rgb(13 36 129);
+}
+
+.clear-colore {
+    background-color: rgb(255 216 48);
 }
 
 /* prova gratuita */
