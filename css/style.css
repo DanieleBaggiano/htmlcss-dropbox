@@ -448,29 +448,43 @@ p {
 .prova-gratuita {
 
     /* debug */
-    height: 150px;
+    /* height: 150px; */
 }
 
 .container-prova-gratuita {
     width: 60%;
     display: flex;
     padding-top: 10px;
+    align-items: center;
 }
 
 .porta-azienda {
     width: 60%;
 
     /* debug */
-    background-color: blue;
-    height: 130px;
+    /* background-color: blue; */
+    /* height: 130px; */
+}
+
+.titolo-colore {
+    color: rgb(97 8 43);
+    font-size: 1.8rem;
+    padding: 100px 0;
 }
 
 .inizia-prova-gratuita {
     width: 40%;
 
     /* debug */
-    background-color: green;
-    height: 130px;
+    /* background-color: green; */
+    /* height: 130px; */
+}
+
+.bottone-prova {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 8px 30px;
 }
 
 /* domande frequenti */
