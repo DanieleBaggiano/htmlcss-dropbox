@@ -530,21 +530,46 @@ hr {
 .container-liste {
     display: flex;
     justify-content: center;
-    align-items: center;
     column-gap: 10px;
     margin-top: 100px;
     background-color: black;
+    padding: 80px;
 
     /* debug */
-    height: 200px;
+    /* height: 200px; */
 }
 
 .lista-dropbox, .lista-prodotti, .lista-azienda,
 .lista-supporto, .lista-community {
 
     /* debug */
-    height: 180px;
-    width: calc(70% / 5);
-    background-color: whitesmoke;
-    border: 1px solid red;
+    /* height: 180px; */
+    /* width: calc(70% / 5); */
+    /* background-color: whitesmoke; */
+    /* border: 1px solid red; */
+}
+
+.titolo-dropbox {
+    color: white;
+}
+
+.lista-bianca {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    font-size: .8rem;
+}
+
+.trattino-basso {
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.lingue {
+    color: white;
+    font-size: .8rem;
+    padding-left: 20px;
 }
